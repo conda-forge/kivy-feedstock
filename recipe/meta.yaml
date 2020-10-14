@@ -1,6 +1,6 @@
 {% set name = "kivy" %}
-{% set version = "1.11.1" %}
-{% set sha256 = "8fad63cf6abaf72220b899d776b87327f22c8898d45dbe9635c9ff919ec4de93" %}
+{% set version = "2.0.0rc3" %}
+{% set sha256 = "4311b46da2486cd09d492a7365ff5d12edeaad8f2d7941d004baae77c223dc83" %}
 
 package:
   name: {{ name|lower }}
@@ -9,11 +9,9 @@ package:
 source:
   url: https://github.com/kivy/{{ name }}/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  patches:
-   - 0001-Increase-max-cython-version.patch
 
 build:
-  number: 3
+  number: 0
 
 requirements:
   build:

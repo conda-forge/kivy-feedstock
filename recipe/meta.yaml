@@ -30,7 +30,7 @@ requirements:
     - pip
     - nose
     - setuptools
-    - cython <=0.29.19
+    - cython <=0.29.21
     - sdl2
     - sdl2_mixer
     - sdl2_image

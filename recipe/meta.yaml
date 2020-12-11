@@ -9,6 +9,8 @@ package:
 source:
   url: https://github.com/kivy/{{ name }}/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
+  patches:
+   - Use-NSString-instead-of-AVCaptureSessionPreset-in-order-to.patch
 
 build:
   number: 0

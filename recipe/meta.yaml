@@ -13,7 +13,7 @@ source:
    - Use-NSString-instead-of-AVCaptureSessionPreset-in-order-to.patch
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   run_constrained:
@@ -41,6 +41,7 @@ requirements:
     - msinttypes  # [win]
     - gstreamer  # [linux or osx]
     - gst-plugins-base  # [linux or osx]
+    - glib  # [linux or osx]
     - xorg-libx11  # [linux]
     - glew  # [win]
     - xorg-libxrender  # [linux]

@@ -41,6 +41,7 @@ requirements:
     - msinttypes  # [win]
     - gstreamer  # [linux or osx]
     - gst-plugins-base  # [linux or osx]
+    - glib  # [linux or osx]
     - xorg-libx11  # [linux]
     - glew  # [win]
     - xorg-libxrender  # [linux]

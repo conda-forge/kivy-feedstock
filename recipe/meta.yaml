@@ -1,6 +1,6 @@
 {% set name = "kivy" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "c0c7c116726856c74233ff4849d671c194fe0a4f8ba702b03f72b71ff5c35994" %}
+{% set version = "2.1.0.dev0" %}
+{% set sha256 = "3482c0e070fcc98b41f25b459a1d58ca6493dc97fd08393a964adf3db3bb14cd" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
    - Use-NSString-instead-of-AVCaptureSessionPreset-in-order-to.patch
 
 build:
-  number: 4
+  number: 0
 
 requirements:
   run_constrained:

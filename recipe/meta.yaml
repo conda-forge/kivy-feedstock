@@ -13,7 +13,7 @@ source:
    - Use-NSString-instead-of-AVCaptureSessionPreset-in-order-to.patch
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   run_constrained:
@@ -32,7 +32,7 @@ requirements:
     - pip
     - nose
     - setuptools
-    - cython <=0.29.21
+    - cython <=0.29.26
     - sdl2
     - sdl2_mixer
     - sdl2_image

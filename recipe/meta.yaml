@@ -1,6 +1,6 @@
 {% set name = "kivy" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "c0c7c116726856c74233ff4849d671c194fe0a4f8ba702b03f72b71ff5c35994" %}
+{% set version = "2.1.0rc3" %}
+{% set sha256 = "e64e2e4a9b11d628fb58c4be77037c410ef6f6c60a6f6a40b30d139a7caa9ae5" %}
 
 package:
   name: {{ name|lower }}
@@ -9,11 +9,9 @@ package:
 source:
   url: https://github.com/kivy/{{ name }}/archive/{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  patches:
-   - Use-NSString-instead-of-AVCaptureSessionPreset-in-order-to.patch
 
 build:
-  number: 5
+  number: 0
 
 requirements:
   run_constrained:

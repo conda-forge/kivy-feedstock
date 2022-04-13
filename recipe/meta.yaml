@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   run_constrained:
@@ -30,7 +30,7 @@ requirements:
     - pip
     - nose
     - setuptools
-    - cython <=0.29.26
+    - cython <=0.29.28
     - sdl2
     - sdl2_mixer
     - sdl2_image

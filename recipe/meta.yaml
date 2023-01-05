@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   run_constrained:
@@ -48,10 +48,6 @@ requirements:
     - xorg-libxfixes  # [linux]
   run:
     - python
-    - sdl2
-    - sdl2_mixer
-    - sdl2_image
-    - sdl2_ttf
     - glew  # [win]
     - docutils
     - pillow

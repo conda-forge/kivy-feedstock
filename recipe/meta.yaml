@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 3
+  number: 4
 
 requirements:
   run_constrained:
@@ -37,8 +37,8 @@ requirements:
     - sdl2_ttf
     - pkgconfig
     - msinttypes  # [win]
-    - gstreamer  # [linux or osx]
-    - gst-plugins-base  # [linux or osx]
+    - gstreamer                         # [linux or osx]
+    - gst-plugins-base {{ gstreamer }}  # [linux or osx]
     - glib  # [linux or osx]
     - xorg-libx11  # [linux]
     - glew  # [win]
@@ -63,8 +63,6 @@ test:
   requires:
     - nose
     - xvfbwrapper  # [linux]
-    - gstreamer  # [not win]
-    - gst-plugins-base  # [not win]
     - xorg-libxrender  # [linux]
     - xvfbwrapper  # [linux]
     - ffmpeg  # [linux]

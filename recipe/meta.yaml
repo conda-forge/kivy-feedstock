@@ -47,6 +47,7 @@ requirements:
     - xvfbwrapper  # [linux]
     # See http://conda-forge.org/docs/maintainer/knowledge_base.html?highlight=libgl#libgl
     - xorg-libxfixes  # [linux]
+    - freetype
   run:
     - python
     - glew  # [win]

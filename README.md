@@ -1,11 +1,11 @@
-About kivy
-==========
+About kivy-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kivy-feedstock/blob/main/LICENSE.txt)
 
 Home: http://kivy.org/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kivy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS.
 

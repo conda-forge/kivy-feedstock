@@ -30,6 +30,7 @@ requirements:
     - pip
     - nose
     - setuptools
+    - packaging
     - cython <=0.29.28
     - sdl2
     - sdl2_mixer
@@ -52,6 +53,7 @@ requirements:
     - docutils
     - pillow
     - pygments
+    - requests
 
 test:
   imports:

@@ -1,6 +1,6 @@
 {% set name = "kivy" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "c4e611b823bd5440cfccbfdfe6501037bd82d21c45c26f7ec0f22155e0286bd4" %}
+{% set version = "2.2.0" %}
+{% set sha256 = "085efdf8709a773ee8f1a6fe178ac3c6159d5b8b560ad559f249a3d75edb262c" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 4
+  number: 0
 
 requirements:
   run_constrained:
@@ -30,7 +30,8 @@ requirements:
     - pip
     - nose
     - setuptools
-    - cython <=0.29.28
+    - packaging
+    - cython <=0.29.33
     - sdl2
     - sdl2_mixer
     - sdl2_image
@@ -52,6 +53,7 @@ requirements:
     - docutils
     - pillow
     - pygments
+    - requests
 
 test:
   imports:

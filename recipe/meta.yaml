@@ -1,6 +1,6 @@
 {% set name = "kivy" %}
-{% set version = "2.2.1" %}
-{% set sha256 = "5ca322e13c1f92141fbe6c0965e559b77eeab7754d197b69c170c9e6fb4b5e1f" %}
+{% set version = "2.3.0" %}
+{% set sha256 = "bb71df29e516336ac907df845903afee9169a886e535868deea64ca856ac3219" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
 
 requirements:
   run_constrained:

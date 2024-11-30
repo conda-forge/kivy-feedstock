@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 3
 
 requirements:
   build:
@@ -30,7 +30,7 @@ requirements:
     - nose
     - setuptools
     - packaging
-    - cython <=0.29.33
+    - cython <=0.29.37
     - sdl2
     - sdl2_mixer
     - sdl2_image

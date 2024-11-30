@@ -30,7 +30,7 @@ requirements:
     - nose
     - setuptools
     - packaging
-    - cython <=0.29.33
+    - cython <=0.29.37
     - sdl2
     - sdl2_mixer
     - sdl2_image

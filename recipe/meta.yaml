@@ -24,7 +24,7 @@ requirements:
     - {{ cdt('libxdamage') }}  # [linux]
     - {{ cdt('libxxf86vm') }}  # [linux]
     - {{ stdlib("c") }}
-    - {{ cdt('libx11-dev') }}  # [linux]
+    - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
   host:
     - python
     - pip

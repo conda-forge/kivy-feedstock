@@ -55,6 +55,7 @@ requirements:
     - pillow
     - pygments
     - requests
+    - filetype
 
 test:
   imports:

@@ -11,7 +11,7 @@ cxx_compiler:
 freetype:
 - '2'
 glew:
-- '2.1'
+- '2.3'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -28,6 +28,3 @@ sdl2_ttf:
 - '2'
 target_platform:
 - win-64
-zip_keys:
-- - python
-  - channel_sources

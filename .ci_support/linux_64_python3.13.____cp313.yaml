@@ -19,13 +19,13 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
 ffmpeg:
-- '7'
+- '8'
 freetype:
 - '2'
 glib:
 - '2'
 gstreamer:
-- '1.26'
+- '1.28'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -45,5 +45,3 @@ target_platform:
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
-- - python
-  - channel_sources

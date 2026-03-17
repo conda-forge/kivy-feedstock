@@ -11,20 +11,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 4
+  number: 5
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     # See http://conda-forge.org/docs/maintainer/knowledge_base.html?highlight=libgl#libgl
-    - {{ cdt('mesa-libgl-devel') }}  # [linux]
-    - {{ cdt('mesa-dri-drivers') }}  # [linux]
-    - {{ cdt('libselinux') }}  # [linux]
-    - {{ cdt('libxdamage') }}  # [linux]
-    - {{ cdt('libxxf86vm') }}  # [linux]
     - {{ stdlib("c") }}
-    - {{ cdt('xorg-x11-proto-devel') }}  # [linux]
   host:
     - python
     - pip
@@ -48,6 +42,8 @@ requirements:
     # See http://conda-forge.org/docs/maintainer/knowledge_base.html?highlight=libgl#libgl
     - xorg-libxfixes  # [linux]
     - freetype
+    - libgl-devel                    # [linux]
+    - xorg-xorgproto                     # [linux]
   run:
     - python
     - glew  # [win]

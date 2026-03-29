@@ -59,6 +59,7 @@ requirements:
     - pygments
     - requests
     - filetype
+    - kivy-garden
 
 tests:
   - python:

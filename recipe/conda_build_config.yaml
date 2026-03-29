@@ -1,4 +1,0 @@
-c_stdlib:
-  - macosx_deployment_target   # [osx]
-c_stdlib_version:              # [unix]
-  - 10.15                      # [osx and x86_64]

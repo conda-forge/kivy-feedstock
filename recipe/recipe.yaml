@@ -44,7 +44,7 @@ requirements:
     - if: unix
       then:
         - gstreamer
-        - gst-plugins-base ${{ gstreamer }}
+        - gst-plugins-base ${{ gstreamer }}.*
         - glib
     - if: win
       then:

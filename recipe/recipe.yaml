@@ -20,6 +20,8 @@ requirements:
     - ${{ compiler('c') }}
     - ${{ compiler('cxx') }}
     - ${{ stdlib("c") }}
+    - if: win
+      then: m2-sed
   host:
     - freetype
     - python

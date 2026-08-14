@@ -13,7 +13,7 @@ source:
   sha256: ${{ sha256 }}
 
 build:
-  number: 5
+  number: 6
 
 requirements:
   build:
@@ -76,7 +76,7 @@ tests:
       run:
         - nose
         - if: linux
-          then: 
+          then:
             - xvfbwrapper
             - xorg-libxrender
             - xvfbwrapper
@@ -84,9 +84,7 @@ tests:
     script:
       - if: not win
         then: export KIVY_GL_BACKEND=mock
-      - if: win
-        then: set KIVY_GL_BACKEND=mock
-
+        else: set KIVY_GL_BACKEND=mock
 about:
   license: MIT
   license_file: LICENSE

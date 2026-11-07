@@ -1,8 +1,8 @@
 schema_version: 1
 
 context:
-  version: "2.3.1"
-  sha256: 83eee956b84ab7bf9e9d5b38544acc40a0e55f05cea7112fd01cda172c98244a
+  version: "2.3.2"
+  sha256: da77d20786fc0eed3f4016fba63e53b3b38ca16059acf5835773303cb5aff50e
 
 package:
   name: kivy
@@ -13,7 +13,7 @@ source:
   sha256: ${{ sha256 }}
 
 build:
-  number: 5
+  number: 0
 
 requirements:
   build:
@@ -76,7 +76,7 @@ tests:
       run:
         - nose
         - if: linux
-          then: 
+          then:
             - xvfbwrapper
             - xorg-libxrender
             - xvfbwrapper
